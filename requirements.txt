@@ -1,0 +1,11 @@
+# Runtime dependencies for the course notebooks.
+# This file states *intent* (ranges a human chose). For an exact, repeatable
+# resolution, generate a lock file — see 00_environments.ipynb.
+#
+#   python -m pip install -r requirements.txt
+#   python -m pip freeze > requirements.lock.txt
+
+numpy>=2.0,<3
+matplotlib>=3.8,<4        # used only by the notebook 07 project (recall/latency plot)
+jupyterlab>=4,<5
+ipykernel>=6,<7           # notebook kernel for editors such as VS Code
