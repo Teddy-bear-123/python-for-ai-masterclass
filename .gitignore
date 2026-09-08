@@ -219,5 +219,5 @@ __marimo__/
 
 .lazy.lua
 .python-version
-
+uv.lock
 *.ju.py
